@@ -76,7 +76,7 @@ a, a:visited, a:active{
     background-color:#3882f6;
     border: none;
     color: white;
-    padding: 1.6rem 3.2rem;
+    padding: 1rem 3.2rem;
     text-align: center;
     font-weight:bold;
     font-size: 1.6rem;
@@ -84,7 +84,7 @@ a, a:visited, a:active{
     border-radius:1rem;
 }
 .c2l1 button:hover{
-    background-color:#1c3f79;
+    opacity:0.5;
 }
 .c3{
     padding-top:8rem;
@@ -132,4 +132,46 @@ a, a:visited, a:active{
     font-size:2.4rem;
     font-weight:bolder;
     text-align: right;
+}
+.c5 {
+    padding-top:10rem;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:10rem;
+}
+.c5l1{
+    background-color:#3882f6;
+    display:flex;
+    padding-top:5rem;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:5rem;
+    border-radius:2rem;
+    align-items: center;
+}
+.c5button{
+    margin-left:auto;
+    background-color:#3882f6;
+    border: solid;
+    color: white;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    text-align: center;
+    font-weight:bold;
+    font-size: 1.6rem;
+    border-radius:1rem;
+    width:10rem;
+    height:5rem;
+}
+.c5button:hover{
+    opacity:0.5;
+}
+.c5l1 p{
+    color:white;
+}
+.c5l1 p:first-child{
+    font-size:4.8rem;
+}
+.c5l1 p:last-child{
+    font-size:1.8rem;
 }
