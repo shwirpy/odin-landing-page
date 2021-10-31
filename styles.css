@@ -60,6 +60,9 @@ a, a:visited, a:active{
 .c2img{
     width:50rem;
 }
+.c2img img{
+    border-radius:1rem;
+}
 .c2l1 div{
     font-size:2.4em;
     padding-top:1.5%;
@@ -83,4 +86,50 @@ a, a:visited, a:active{
 .c2l1 button:hover{
     background-color:#1c3f79;
 }
-
+.c3{
+    padding-top:8rem;
+    padding-bottom:8rem;
+}
+.c3l1{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:10rem;
+}
+.c3 p{
+    font-size:4rem;
+    text-align:center;
+    padding-bottom:8rem;
+}
+.c3img{
+    width: 20rem;
+    height:auto;
+    border-radius:1rem;
+}
+.c3imgtext{
+    width:20rem;
+    font-size:1.5rem;
+    text-align:center;
+}
+.c4{
+    padding-top:10rem;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:10rem;
+    background-color: #e5e7eb;
+}
+.c4 p:first-child{
+    font-size:4.8rem;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:3rem;
+    font-weight:lighter;
+    font-style:italic;
+}
+.c4 p:last-child{
+    padding-left:10%;
+    padding-right:10%;
+    font-size:2.4rem;
+    font-weight:bolder;
+    text-align: right;
+}
