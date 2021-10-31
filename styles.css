@@ -175,3 +175,11 @@ a, a:visited, a:active{
 .c5l1 p:last-child{
     font-size:1.8rem;
 }
+#copyright{
+    text-align:center;
+    font-size:1.4rem;
+    color:white;
+    background-color:#1f2937;
+    padding-top:1.8rem;
+    padding-bottom:1.8rem;
+}
