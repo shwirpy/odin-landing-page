@@ -1,6 +1,13 @@
 *{
-    font-family:Helvetica;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin:0;
+}
+html{
+    font-size:62.5%;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 a, a:visited, a:active{
@@ -12,19 +19,19 @@ a, a:visited, a:active{
     color:#f9faf8;
     display:flex;
     width:100%;
-    padding-top:8%;
-    padding-left:8%;
-    padding-right:8%;
-    gap:1em;
+    padding-top:5rem;
+    padding-left:10%;
+    padding-right:10%;
+    gap:5%;
     justify-content: center;
     align-items: center;
 }
-.c1:first-child{
-    font-size:90%;
+.c1 span{
+    font-size:2.4em;
     color:#f9faf8;
 }
 .c1 a{
-    font-size:75%;
+    font-size:1.8em;
     color:#e5e7eb;
 }
 
@@ -35,4 +42,45 @@ a, a:visited, a:active{
     background-color: #1f2937;
     box-sizing:border-box;
     width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    color:#e5e7eb;
+    padding-top:10rem;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:10rem;
+    justify-content: center;
 }
+.c2l1{
+    width:50rem;
+    flex:1;
+    padding-right:1.5%;
+    padding-bottom:4rem;
+}
+.c2img{
+    width:50rem;
+}
+.c2l1 div{
+    font-size:2.4em;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    padding-right: 8%;
+}
+.c2l1 div:first-child{
+    font-size:6.4em;
+}
+.c2l1 button{
+    background-color:#3882f6;
+    border: none;
+    color: white;
+    padding: 1.6rem 3.2rem;
+    text-align: center;
+    font-weight:bold;
+    font-size: 1.6rem;
+    margin: 0.4rem 0.2rem;
+    border-radius:1rem;
+}
+.c2l1 button:hover{
+    background-color:#1c3f79;
+}
+
